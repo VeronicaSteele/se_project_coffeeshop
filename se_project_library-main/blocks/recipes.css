@@ -30,10 +30,13 @@
   padding-bottom: 80px;
 }
 
-.recipe__videos {
-  text-align: center;
+.recipes__videos {
   display: flex;
+  justify-content: center;
   width: 100%;
+}
+.recipe__video:first-child {
+  margin-right: 40px;
 }
 
 .recipes__video-caption {
@@ -44,5 +47,6 @@
   line-height: 30px;
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 0;
 }

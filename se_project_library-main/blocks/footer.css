@@ -38,6 +38,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  display: row reverse;
 }
 
 .footer__column-link {
@@ -58,4 +59,10 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
