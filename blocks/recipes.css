@@ -35,7 +35,7 @@
   justify-content: center;
   width: 100%;
 }
-.recipe__video:first-child {
+.recipes__video:first-child {
   margin-right: 40px;
 }
 
