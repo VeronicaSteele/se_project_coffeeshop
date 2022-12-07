@@ -3,6 +3,7 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__columns {
@@ -49,7 +50,7 @@
 }
 
 .footer__column-link:hover {
-  color: #2f80ed;
+  color: #c1c1c1;
 }
 .footer__social-icon {
   width: 16px;
@@ -65,4 +66,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  top: 60px;
+  left: 80px;
+  right: 100px;
+  padding-bottom: 108px;
 }

@@ -1,111 +1,63 @@
 .header {
-  background-image: url("../images/background_header.svg");
-  background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #fff url("../images/background_header.svg") no-repeat center/cover;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding-top: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
-  position: relative;
+  padding: 30px 38px 40px 80px;
   box-sizing: border-box;
-}
-
-.header__image {
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
+  z-index: 0;
+  position: relative;
 }
 
 .header__span-accent {
   font-style: italic;
+  color: #2f80ed;
+  display: block;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
 }
 
 .header__title {
-  font-size: 66px;
-  line-height: 76px;
+  font-size: 60px;
+  line-height: 72px;
   font-weight: 500;
-  margin: 80px 0 0;
-  max-width: 544px;
+  font-family: "Inter", sans-serif;
+  margin: 200px 0 0;
+  max-width: 729px;
 }
 
 .header__description {
+  font-family: "Noto Serif", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
-  max-width: 465px;
+  max-width: 683px;
 }
 
 .header__image {
-  max-width: 636px;
   position: absolute;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav__links {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
-  margin-top: 8px;
-  align-items: baseline;
-  column-gap: 20px;
-  top: 30px;
-  right: 80px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-}
-
-.header__address {
-  margin: 0;
-  color: #838383;
-}
-.header__span-accent {
-  color: #2f80ed;
-}
-.header__hours {
-  z-index: 1;
-}
-
-.header__paragraph {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 0;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
+  position: absolute;
   left: 0;
   bottom: 40px;
   width: 100%;
   display: flex;
-  align-items: center;
-  padding: 40px 80px 0;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
-  line-height: 20px;
-  float: right;
+  color: #838383;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 40px 80px 0;
+}
+
+.header__paragraph {
+  margin: 0;
 }

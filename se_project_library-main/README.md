@@ -1,8 +1,8 @@
-# Practicum Coffee Shop
+Practicum Coffee Shop
 
 This is the second project of the Software Engineer program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
 
-## Project features
+Project features
 
 - Semantic HTML5
 - Flexbox
@@ -14,3 +14,5 @@ This is the second project of the Software Engineer program at Practicum by Yand
 ## Plan on improving the project
 
 Add your ideas here :)
+Smoother transition between background images for visual cohesion.
+Animate the cyberbarista
