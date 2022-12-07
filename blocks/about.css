@@ -23,14 +23,15 @@
 
 .about__title {
   margin: 0;
+  font-style: normal;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 52px;
   font-weight: 500;
+  font-size: 44px;
   z-index: 1;
   max-width: 251px;
   padding-right: 120px;
-  top: 100px;
-  left: 80px;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {
@@ -46,8 +47,11 @@
   margin-bottom: 32px;
   max-width: 660px;
   justify-content: space-between;
-  top: 119px;
-  right: 80px;
+  font-family: Noto Serif, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph:last-child {

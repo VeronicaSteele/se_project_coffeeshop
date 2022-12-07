@@ -6,19 +6,6 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
-.footer__columns {
-  display: flex;
-  min-height: 224px;
-}
-
-.footer__column_content_hours {
-  margin-left: auto;
-}
-
-.footer__column_content_social {
-  margin-left: 100px;
-}
-
 .footer__logo {
   width: 116px;
   height: 21px;
@@ -38,19 +25,23 @@
   margin-bottom: 0;
 }
 
-.footer__column-heading {
+.footer__social-heading {
   margin: 0 0 20px;
-  display: row reverse;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.footer__column-link {
+.footer__social-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
 
-.footer__column-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 .footer__social-icon {
@@ -67,8 +58,4 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  top: 60px;
-  left: 80px;
-  right: 100px;
-  padding-bottom: 108px;
 }

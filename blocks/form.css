@@ -67,7 +67,7 @@
   outline-color: #fff6c5;
 }
 
-.form__button[type="submit"] {
+.form__button {
   background-color: #2f80ed;
   border-radius: 4px;
   width: 100%;
