@@ -54,7 +54,9 @@
   margin: 0;
   padding: 20px 32px;
   cursor: pointer;
-  color: #fff;
+  background-color: #2f80ed;
+  border-radius: 4px;
+  width: 100%;
   font-family: inherit;
   transition: opacity 0.4s;
 }
@@ -65,12 +67,6 @@
 
 .form__button:focus {
   outline-color: #fff6c5;
-}
-
-.form__button {
-  background-color: #2f80ed;
-  border-radius: 4px;
-  width: 100%;
 }
 
 .form__checkbox {

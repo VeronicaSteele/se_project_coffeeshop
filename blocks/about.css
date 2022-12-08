@@ -24,7 +24,6 @@
 .about__title {
   margin: 0;
   font-style: normal;
-  font-size: 20px;
   line-height: 52px;
   font-weight: 500;
   font-size: 44px;
@@ -47,7 +46,7 @@
   margin-bottom: 32px;
   max-width: 660px;
   justify-content: space-between;
-  font-family: Noto Serif, serif;
+  font-family: Noto serif, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
