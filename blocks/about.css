@@ -31,7 +31,7 @@
   z-index: 1;
   max-width: 251px;
   padding-right: 120px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about__content {
@@ -69,6 +69,6 @@
   z-index: 0;
 }
 
-.about__circle-animation-blurred {
+.about__circle_animation-blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
