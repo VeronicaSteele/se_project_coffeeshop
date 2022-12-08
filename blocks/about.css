@@ -46,7 +46,7 @@
   margin-bottom: 32px;
   max-width: 660px;
   justify-content: space-between;
-  font-family: Noto serif, serif;
+  font-family: "Noto serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -68,6 +68,6 @@
   z-index: 0;
 }
 
-.about__circle_animation-blurred {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
