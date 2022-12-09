@@ -3,12 +3,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 100px 80px 140px;
+  padding: 100px 80px 191px;
   background-image: url("../images/background_recipes.svg");
 }
 
 .recipes__title {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -20,7 +20,7 @@
 
 .recipes__subtitle {
   margin: 0;
-  font-family: "Noto serif", serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

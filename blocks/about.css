@@ -30,7 +30,7 @@
   z-index: 1;
   max-width: 251px;
   padding-right: 120px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {
@@ -46,7 +46,7 @@
   margin-bottom: 32px;
   max-width: 660px;
   justify-content: space-between;
-  font-family: "Noto serif", serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
